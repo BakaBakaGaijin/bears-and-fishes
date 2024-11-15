@@ -1,0 +1,52 @@
+.card {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  height: 40px;
+  font-weight: bold;
+  border: unset;
+}
+
+.button:hover {
+  cursor: pointer;
+  filter: grayscale(30%);
+}
+
+.button:active {
+  filter: grayscale(60%);
+}
+
+.square-button {
+  aspect-ratio: 1 / 1;
+}
+
+.bear-button {
+  background-color: var(--orange);
+}
+
+.fish-button {
+  background-color: var(--sky);
+}
+
+.bear {
+  background-color: var(--brown);
+}
+
+.fish {
+  background-color: var(--blue);
+}
+
+.images {
+  height: 100px;
+}

@@ -1,0 +1,25 @@
+@keyframes appearing {
+  from {
+    top: -50dvh;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+.image-container {
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.image-container-first {
+  position: relative;
+  left: unset;
+}
+
+.added-animal {
+  position: relative;
+  animation: appearing 0.3s cubic-bezier(0.3, 0.7, 0.4, 1);
+}
